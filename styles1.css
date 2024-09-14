@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 25px;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar {
+    width: 30%;
+    background-color: #0d665c;
+    color: white;
+    padding: 20px;
+    
+  }
+  
+  .sidebar h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .sidebar h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-weight: bold;
+    
+    
+  }
+  
+  .details, .links, .skills, .languages {
+    margin-bottom: 20px;
+    font-size: x-large;
+    
+
+  }
+  
+  .details h3, .links h3, .skills h3, .languages h3 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration:underline;
+  }
+  
+  .details p, .skills p, .languages p {
+    margin-bottom: 5px;
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .content {
+    width: 70%;
+    padding: 30px;
+  }
+  
+  .content h2 {
+    color: #0d665c;
+    margin-bottom: 15px;
+  }
+  
+  .content p, .content ul {
+    margin-bottom: 20px;
+  }
+  
+  .content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .profile, .education, .internships, .projects {
+    margin-bottom: 40px;
+  }
+  
+  .profile p {
+    text-align: justify;
+  }
+  
